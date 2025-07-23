@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --primary-color:rgb(238, 238, 83);
+    
+    --secondary-color:maroon;
+    --hover-color:orange;
+}
+header{
+    background:linear-gradient(to bottom right,rgb(7, 83, 7),white);
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 10px 10px green;
+   
+}
+.header-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    color: black;
+    padding:25px 0;
+   
+}
+.header-logo{
+    text-align: center;
+    line-height: 1.5rem;
+}
+.header-logo h3{
+    color:var(--primary-color);
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 200;
+    font-size: 32px;
+
+
+}
+.header-logo p{
+    font-size: 32px;
+}
+.header-navs ul{
+    display: flex;
+    list-style-type: none;
+}
+.header-navs ul a{
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.header-navs ul a:hover{
+    color: maroon;
+    text-decoration: underline;
+
+
+}
+.header-nav-icons i{
+    color: green;
+}
+.section-1-container{
+   background-image: url("Tupos.jpg");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+
+   
+ 
+}
+.section-1-container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+
+   
+
+}
+.tupos-landing h1{
+    font-weight: 800;
+    color: rgb(71, 8, 0);
+}
+.Book-us{
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px 17px;
+    font-weight: 800;
+    font-size: 24px;
+    transition: background-color 0.5s ease-in;
+}
+.Book-us:hover{
+    background-color: var(--hover-color);
+}
+section h1,h3{
+    text-align: center;
+}
+.section-2-container{
+    display: flex;
+     gap:30px;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  
+
+}
+.section-image{
+    flex: 1;
+
+}
+.section-image img{
+    border-radius: 15px;
+  
+    
+
+}
+.section-about{
+    flex: 1;
+    line-height: 30px;
+
+
+}
+.section-3-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.section-3-image img{
+    object-fit: cover;
+    width: 700px;
+}
+.section-3-button{
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px 17px;
+    font-weight: 800;
+    font-size: 24px;
+    transition: background-color 0.5s ease-in;
+
+}
+.section-4-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+
+
+}
+.section-4{
+    background-color: rgb(71, 8, 0);
+    color: whitesmoke;
+    margin-top: 10px;
+}
+.person{
+    border-radius: 60%;
+    font-size: 10px;
+}
+.woman{
+ 
+    border-radius: 60%;
+    font-size: 10px;
+
+}
+.section-5-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+  
+
+
+    align-items: center;
+}
+.ratio{
+    width:450px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 5px 5px 10px maroon;
+    transition: transform 0.8s ease-in;
+}
+
+
+footer{
+  
+    background-color: black;
+    color: white;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15px;
+    
+}
+.footer-2{
+    background-color: black;
+    color:white;
+    font-size: 24px;
+}
+.footer-policies ul{
+    list-style-type: none;
+    
+}
+.footer-policies ul a{
+    text-decoration: none;
+    color: white;
+    line-height: 45px;
+}
+.footer-site-links ul{
+    list-style-type: none;
+
+
+}
+.footer-site-links a{
+    text-decoration: none;
+    color: white;
+    line-height: 45px;
+}
+
+.footer-container{
+
+}
+
+
+  
